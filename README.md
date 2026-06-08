@@ -102,7 +102,7 @@ Power BI Dashboard
 
 ### Architecture Diagram
 
-![Architecture Diagram](docs/images/architecture_diagram.png)
+![Architecture Diagram](outputs\charts\Architecture diagram.png)
 
 ---
 
@@ -157,7 +157,7 @@ EDA was performed to identify:
 
 ### Correlation Heatmap
 
-![Correlation Heatmap](docs/images/correlation_heatmap.png)
+![Correlation Heatmap](outputs\charts\correlation_heatmap.png)
 
 ---
 
@@ -220,13 +220,13 @@ Reason:
 
 ## Actual vs Predicted RUL
 
-![Actual vs Predicted RUL](docs/images/actual_vs_predicted_rul.png)
+![Actual vs Predicted RUL](outputs\charts\actual_vs_predicted_rul.png)
 
 ---
 
 ## Residual Analysis
 
-![Residual Analysis](docs/images/residual_analysis.png)
+![Residual Analysis](outputs\charts\residual_analysis.png)
 
 ---
 
@@ -244,13 +244,13 @@ The project incorporates Reliability Engineering techniques including:
 
 ## Reliability Curve
 
-![Reliability Curve](docs/images/reliability_curve.png)
+![Reliability Curve](outputs\charts\reliability_curve.png)
 
 ---
 
 ## Kaplan-Meier Survival Curve
 
-![Kaplan-Meier Survival Curve](docs/images/kaplan_meier_curve.png)
+![Kaplan-Meier Survival Curve](outputs\charts\kaplan_meier_curve.png)
 
 ---
 

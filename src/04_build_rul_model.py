@@ -44,11 +44,7 @@ def evaluate_model(model, X_test, y_test, model_name):
 def create_actual_vs_predicted_chart(y_test, preds):
     plt.figure(figsize=(8, 6))
 
-    plt.scatter(
-        y_test,
-        preds,
-        alpha=0.5
-    )
+    plt.scatter(y_test, preds, alpha=0.5)
 
     plt.plot(
         [y_test.min(), y_test.max()],
@@ -59,16 +55,40 @@ def create_actual_vs_predicted_chart(y_test, preds):
     plt.xlabel("Actual RUL")
     plt.ylabel("Predicted RUL")
     plt.title("Actual vs Predicted RUL")
+    plt.tight_layout()
 
-    chart_path = os.path.join(
-        CHART_DIR,
-        "actual_vs_predicted_rul.png"
-    )
+    chart_path = os.path.join(CHART_DIR, "actual_vs_predicted_rul.png")
 
     plt.savefig(chart_path, dpi=300, bbox_inches="tight")
     plt.close()
 
     print("Actual vs Predicted chart saved:", chart_path)
+
+
+def create_residual_analysis_chart(y_test, preds):
+    residuals = y_test - preds
+
+    plt.figure(figsize=(8, 6))
+
+    plt.scatter(preds, residuals, alpha=0.5)
+
+    plt.axhline(
+        y=0,
+        color="red",
+        linestyle="--"
+    )
+
+    plt.xlabel("Predicted RUL")
+    plt.ylabel("Residual Error")
+    plt.title("Residual Analysis")
+    plt.tight_layout()
+
+    chart_path = os.path.join(CHART_DIR, "residual_analysis.png")
+
+    plt.savefig(chart_path, dpi=300, bbox_inches="tight")
+    plt.close()
+
+    print("Residual Analysis chart saved:", chart_path)
 
 
 def main():
@@ -129,6 +149,7 @@ def main():
     )
 
     create_actual_vs_predicted_chart(y_test, xgb_preds)
+    create_residual_analysis_chart(y_test, xgb_preds)
 
     xgb_path = os.path.join(MODEL_DIR, "xgboost_rul_model.pkl")
     joblib.dump(xgb, xgb_path)
