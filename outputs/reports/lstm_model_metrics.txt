@@ -1,0 +1,5 @@
+LSTM Model Metrics
+==================
+MAE: 5.30
+RMSE: 7.44
+R2: 0.967
