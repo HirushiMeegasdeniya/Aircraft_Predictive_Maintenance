@@ -1,0 +1,9 @@
+RUL Model Metrics
+=================
+Random Forest MAE: 11.96
+Random Forest RMSE: 15.87
+Random Forest R2: 0.851
+
+XGBoost MAE: 10.24
+XGBoost RMSE: 13.94
+XGBoost R2: 0.885

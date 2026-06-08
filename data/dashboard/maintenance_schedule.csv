@@ -1,0 +1,51 @@
+engine_id,latest_cycle,predicted_rul,predicted_failure_cycle,risk_level,recommended_action,estimated_downtime_hours,priority,estimated_cost_saving
+34,203,4.0,207.0,Red - Immediate Inspection,Immediate inspection within 24 hours,12,1,35000
+35,198,9.23,207.23,Red - Immediate Inspection,Immediate inspection within 24 hours,12,1,35000
+20,184,12.52,196.52,Orange - Schedule Maintenance,Schedule maintenance within 1 week,8,2,35000
+49,303,13.08,316.08,Orange - Schedule Maintenance,Schedule maintenance within 1 week,8,2,35000
+31,196,16.85,212.85,Orange - Schedule Maintenance,Schedule maintenance within 1 week,8,2,35000
+42,156,17.11,173.11,Orange - Schedule Maintenance,Schedule maintenance within 1 week,8,2,35000
+36,126,21.24,147.24,Orange - Schedule Maintenance,Schedule maintenance within 1 week,8,2,35000
+24,186,23.27,209.27,Orange - Schedule Maintenance,Schedule maintenance within 1 week,8,2,35000
+41,123,24.07,147.07,Orange - Schedule Maintenance,Schedule maintenance within 1 week,8,2,35000
+40,133,24.59,157.59,Orange - Schedule Maintenance,Schedule maintenance within 1 week,8,2,35000
+37,121,32.43,153.43,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+46,146,34.17,180.17,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+32,145,46.64,191.64,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+38,125,47.55,172.55,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+18,133,49.14,182.14,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+17,165,52.62,217.62,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+3,126,57.89,183.89,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+45,152,66.24,218.24,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+21,148,73.51,221.51,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+13,195,76.88,271.88,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+11,83,84.94,167.94,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+30,143,85.57,228.57,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+43,172,86.88,258.88,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+10,192,87.4,279.4,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+12,217,89.12,306.12,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+29,171,90.84,261.84,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+50,74,91.14,165.14,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+5,98,91.72,189.72,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+6,105,93.62,198.62,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+19,135,94.53,229.53,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+33,50,98.4,148.4,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+7,160,99.21,259.21,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+47,73,99.67,172.67,Yellow - Monitor,Monitor closely and inspect within 2-4 weeks,4,3,0
+4,106,100.72,206.72,Green - Healthy,Normal operation,0,4,0
+48,78,100.81,178.81,Green - Healthy,Normal operation,0,4,0
+44,54,101.23,155.23,Green - Healthy,Normal operation,0,4,0
+27,140,104.11,244.11,Green - Healthy,Normal operation,0,4,0
+28,158,104.89,262.89,Green - Healthy,Normal operation,0,4,0
+8,166,105.56,271.56,Green - Healthy,Normal operation,0,4,0
+15,76,106.62,182.62,Green - Healthy,Normal operation,0,4,0
+14,46,106.79,152.79,Green - Healthy,Normal operation,0,4,0
+26,76,108.69,184.69,Green - Healthy,Normal operation,0,4,0
+16,113,109.5,222.5,Green - Healthy,Normal operation,0,4,0
+1,31,112.22,143.22,Green - Healthy,Normal operation,0,4,0
+9,55,112.32,167.32,Green - Healthy,Normal operation,0,4,0
+2,49,112.37,161.37,Green - Healthy,Normal operation,0,4,0
+22,39,116.1,155.1,Green - Healthy,Normal operation,0,4,0
+25,48,116.21,164.21,Green - Healthy,Normal operation,0,4,0
+39,37,121.89,158.89,Green - Healthy,Normal operation,0,4,0
+23,130,124.85,254.85,Green - Healthy,Normal operation,0,4,0

@@ -1,0 +1,51 @@
+engine_id,latest_cycle,predicted_rul,predicted_failure_cycle,risk_level
+34,203,4.0,207.0,Red - Immediate Inspection
+35,198,9.23,207.23,Red - Immediate Inspection
+20,184,12.52,196.52,Orange - Schedule Maintenance
+49,303,13.08,316.08,Orange - Schedule Maintenance
+31,196,16.85,212.85,Orange - Schedule Maintenance
+42,156,17.11,173.11,Orange - Schedule Maintenance
+36,126,21.24,147.24,Orange - Schedule Maintenance
+24,186,23.27,209.27,Orange - Schedule Maintenance
+41,123,24.07,147.07,Orange - Schedule Maintenance
+40,133,24.59,157.59,Orange - Schedule Maintenance
+37,121,32.43,153.43,Yellow - Monitor
+46,146,34.17,180.17,Yellow - Monitor
+32,145,46.64,191.64,Yellow - Monitor
+38,125,47.55,172.55,Yellow - Monitor
+18,133,49.14,182.14,Yellow - Monitor
+17,165,52.62,217.62,Yellow - Monitor
+3,126,57.89,183.89,Yellow - Monitor
+45,152,66.24,218.24,Yellow - Monitor
+21,148,73.51,221.51,Yellow - Monitor
+13,195,76.88,271.88,Yellow - Monitor
+11,83,84.94,167.94,Yellow - Monitor
+30,143,85.57,228.57,Yellow - Monitor
+43,172,86.88,258.88,Yellow - Monitor
+10,192,87.4,279.4,Yellow - Monitor
+12,217,89.12,306.12,Yellow - Monitor
+29,171,90.84,261.84,Yellow - Monitor
+50,74,91.14,165.14,Yellow - Monitor
+5,98,91.72,189.72,Yellow - Monitor
+6,105,93.62,198.62,Yellow - Monitor
+19,135,94.53,229.53,Yellow - Monitor
+33,50,98.4,148.4,Yellow - Monitor
+7,160,99.21,259.21,Yellow - Monitor
+47,73,99.67,172.67,Yellow - Monitor
+4,106,100.72,206.72,Green - Healthy
+48,78,100.81,178.81,Green - Healthy
+44,54,101.23,155.23,Green - Healthy
+27,140,104.11,244.11,Green - Healthy
+28,158,104.89,262.89,Green - Healthy
+8,166,105.56,271.56,Green - Healthy
+15,76,106.62,182.62,Green - Healthy
+14,46,106.79,152.79,Green - Healthy
+26,76,108.69,184.69,Green - Healthy
+16,113,109.5,222.5,Green - Healthy
+1,31,112.22,143.22,Green - Healthy
+9,55,112.32,167.32,Green - Healthy
+2,49,112.37,161.37,Green - Healthy
+22,39,116.1,155.1,Green - Healthy
+25,48,116.21,164.21,Green - Healthy
+39,37,121.89,158.89,Green - Healthy
+23,130,124.85,254.85,Green - Healthy
