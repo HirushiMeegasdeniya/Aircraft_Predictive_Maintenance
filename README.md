@@ -102,7 +102,7 @@ Power BI Dashboard
 
 ### Architecture Diagram
 
-![Architecture Diagram](outputs\charts\Architecture diagram.png)
+![Architecture Diagram]("outputs\charts\Architecture diagram.png")
 
 ---
 
